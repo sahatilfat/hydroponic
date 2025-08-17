@@ -14,10 +14,10 @@ const SecondHero = () => {
         <div className={styles['left-content']}>
           <p className={styles['title']}>Grow with Melon</p>
           <p className={styles['description']}>
-            Welcome to Melon Hydroponics, where we're dedicated to empowering
-            you with the tools and knowledge to cultivate your own thriving
-            hydroponic garden. Our mission is to make sustainable, high-yield
-            gardening accessible to everyone
+            Welcome to Melon Hydroponics, where we&apos;re dedicated to
+            empowering you with the tools and knowledge to cultivate your own
+            thriving hydroponic garden. Our mission is to make sustainable,
+            high-yield gardening accessible to everyone
           </p>
         </div>
       </div>

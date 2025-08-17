@@ -14,9 +14,9 @@ const MainHero = () => {
               Elevating Sustainable Gardening{' '}
             </p>
             <p className={`${styles['text']} ${styles['description']}`}>
-              At Melon Hydroponics, we're revolutionizing the way you grow. Our
-              cutting-edge hydroponic systems combine innovative technology and
-              expert knowledge to provide a{' '}
+              At Melon Hydroponics, we&apos;re revolutionizing the way you grow.
+              Our cutting-edge hydroponic systems combine innovative technology
+              and expert knowledge to provide a
             </p>
             <div className={styles['button-wrapper']}>
               <ButtonDefault title="Explore Now" />

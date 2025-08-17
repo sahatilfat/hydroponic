@@ -16,8 +16,8 @@ const TransformGardenSection = () => {
             Transform Your <br /> Gardening
           </p>
           <p className={styles['description']}>
-            At Melon Hydroponics, we're passionate about empowering you to grow
-            your own nutritious, flavorful produce with our cutting-edge
+            At Melon Hydroponics, we&apos;re passionate about empowering you to
+            grow your own nutritious, flavorful produce with our cutting-edge
             hydroponic systems. Our innovative technology and expert guidance
             make it easier than ever to cultivate a thriving indoor or outdoor
             garden, no matter your space or experience level
