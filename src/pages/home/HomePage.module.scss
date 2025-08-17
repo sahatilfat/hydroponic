@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+
+  .navbar-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .main-content-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 100px;
+  }
+
+  .second-content-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .hydroponic-haven-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .transform-garden-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

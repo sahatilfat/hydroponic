@@ -1,0 +1,36 @@
+.container {
+  width: max-content;
+  height: 40px;
+  box-sizing: border-box;
+  background: #23512c;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #c6d5ba;
+
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease, color 0.3s ease;
+
+  &.white {
+    background: #fffffe;
+    color: #9fac9f;
+
+    &:hover {
+      background: #fffffa;
+    }
+  }
+
+  &:hover {
+    background: #377e45;
+    color: #c6d5ba;
+  }
+}

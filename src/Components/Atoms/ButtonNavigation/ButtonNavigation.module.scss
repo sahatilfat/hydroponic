@@ -1,0 +1,31 @@
+.container {
+  width: max-content;
+  height: 40px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 20px;
+
+  border-radius: 10px;
+
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #93928e;
+
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background: #23512c;
+    color: #c6d5ba;
+  }
+
+  &.active {
+    background: #23512c;
+    color: #c6d5ba;
+  }
+}

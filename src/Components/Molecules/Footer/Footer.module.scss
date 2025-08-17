@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  background: #262626;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-left: 50px;
+
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+
+    .text1 {
+      font-weight: 600;
+    }
+  }
+  .center-content {
+    background: papayawhip;
+  }
+  .right-content {
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+  }
+}

@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff4ef;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 113px 105px;
+
+  .title {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    color: #1d3f27;
+    font-size: 56px;
+
+    text-align: center;
+  }
+
+  .card-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 78px;
+
+    .card {
+      width: 359px;
+    }
+  }
+}

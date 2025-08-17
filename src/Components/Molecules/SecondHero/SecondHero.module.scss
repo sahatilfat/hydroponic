@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  background: #fffcf7;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 200px;
+
+  .left-content {
+    box-sizing: border-box;
+    padding-top: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .title {
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 700;
+      color: #213d26;
+      font-size: 63px;
+
+      max-width: 500px;
+    }
+
+    .description {
+      font-family: 'Hanken Grotesk', sans-serif;
+      font-weight: 400;
+      color: #a9a6a0;
+      font-size: 17px;
+
+      max-width: 522px;
+      margin-top: 42px;
+    }
+  }
+
+  .right-content {
+    padding-left: 89px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: flex-end;
+    .hero-wrapper {
+      width: 600px;
+      height: 580px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
