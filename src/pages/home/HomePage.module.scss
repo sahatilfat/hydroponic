@@ -38,6 +38,9 @@
   .container {
     .kotak2 {
       display: flex;
+      img {
+        width: 150px;
+      }
     }
   }
 }
