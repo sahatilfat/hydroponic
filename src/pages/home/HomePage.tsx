@@ -84,14 +84,14 @@ function HomePage() {
       </motion.div> */}
 
       {/* KOTAK 2 */}
-      {/* <motion.div
+      <motion.div
         className={styles['kotak2']}
         style={{ position: 'fixed', top: 0, left: 0, zIndex: 9999 }}
         animate={{ x: pos2.x, y: pos2.y, scaleX: vel2.vx < 0 ? -1 : 1 }}
         transition={{ duration: 0.016, ease: 'linear' }}
       >
         <img src="/assets/image/lebah.gif" alt="bee" />
-      </motion.div> */}
+      </motion.div>
 
       {/* KOTAK 3 */}
       {/* <motion.div

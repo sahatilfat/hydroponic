@@ -3,6 +3,10 @@
   height: 100vh;
   box-sizing: border-box;
 
+  .kotak2 {
+    display: none;
+  }
+
   .navbar-wrapper {
     width: 100%;
     box-sizing: border-box;
@@ -27,5 +31,13 @@
   .transform-garden-wrapper {
     width: 100%;
     box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    .kotak2 {
+      display: flex;
+    }
   }
 }
