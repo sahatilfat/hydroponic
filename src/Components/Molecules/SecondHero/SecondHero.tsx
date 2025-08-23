@@ -8,7 +8,7 @@ const SecondHero = () => {
       <div className={styles['container']}>
         <div className={styles['right-content']}>
           <div className={styles['hero-wrapper']}>
-            <img src="/assets/image/melon-slice.png" alt="hero" />
+            <img src="/assets/image/melon-slice2.png" alt="hero" />
           </div>
         </div>
         <div className={styles['left-content']}>

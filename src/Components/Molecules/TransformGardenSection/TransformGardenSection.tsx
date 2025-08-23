@@ -25,7 +25,7 @@ const TransformGardenSection = () => {
       <div className={styles['left-content']}>
         <div className={styles['content']}>
           {/* <img src="/assets/image/melon-transform.png" alt="melon" /> */}
-          <img src="/assets/image/green-melon.png" alt="melon" />
+          <img src="/assets/image/green-melon2.png" alt="melon" />
         </div>
       </div>
     </div>
