@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -11,8 +11,6 @@ import './slider.css';
 
 // import required modules
 import { FreeMode, Pagination } from 'swiper/modules';
-import Card from '../Card/Card';
-import CardWithDescription from '../CardWithDescription/CardWithDescription';
 
 export default function App() {
   return (

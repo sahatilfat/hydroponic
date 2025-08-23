@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './MainHero.module.scss';
-import ButtonDefault from '@/Components/Atoms/ButtonDefault/ButtonDefault';
 import Layout from '@/Components/Layout/Layout';
 
 const MainHero = () => {

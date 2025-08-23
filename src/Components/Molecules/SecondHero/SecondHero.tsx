@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './SecondHero.module.scss';
 import Layout from '@/Components/Layout/Layout';
-import { motion } from 'motion/react';
 
 const SecondHero = () => {
   return (

@@ -1,6 +1,5 @@
 import React, { useLayoutEffect, useRef } from 'react';
 import styles from './Slider.module.scss';
-import CardWithDescription from '../CardWithDescription/CardWithDescription';
 
 const Slider = () => {
   const itemsRef = useRef<(HTMLDivElement | null)[]>([]);
@@ -15,7 +14,7 @@ const Slider = () => {
   }, []);
 
   const loadShow = () => {
-    let active = activeRef.current;
+    const active = activeRef.current;
     let stt = 0;
 
     itemsRef.current[active]!.style.transform = `none`;

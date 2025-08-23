@@ -3,17 +3,11 @@ import React, { useEffect, useState } from 'react';
 import styles from './HomePage.module.scss';
 import MainHero from '@/Components/Molecules/MainHero/MainHero';
 import SecondHero from '@/Components/Molecules/SecondHero/SecondHero';
-import ExploreProduct from '@/Components/Molecules/ExploreProduct/ExploreProduct';
 import TransformGardenSection from '@/Components/Molecules/TransformGardenSection/TransformGardenSection';
 import Footer from '@/Components/Molecules/Footer/Footer';
 import { motion } from 'framer-motion';
 import HydroponicBenefit from '@/Components/Molecules/HydroponicBenefit/HydroponicBenefit';
-import Slider from '@/Components/Molecules/Slider/Slider';
-import SwiperSlider from '@/Components/Molecules/SwiperSlider/SwiperSlider';
-import CardWithDescription from '@/Components/Molecules/CardWithDescription/CardWithDescription';
-import SwiperSlider2 from '@/Components/Molecules/SwiperSlider2/SwiperSlider2';
 import Gallery from '@/Components/Molecules/Gallery/Gallery';
-import HoverText from '@/Components/Molecules/HoverText/HoverText';
 
 function HomePage() {
   // posisi kotak1
