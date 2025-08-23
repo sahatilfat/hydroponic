@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './SecondHero.module.scss';
 import Layout from '@/Components/Layout/Layout';
+import { motion } from 'motion/react';
 
 const SecondHero = () => {
   return (
@@ -12,12 +13,11 @@ const SecondHero = () => {
           </div>
         </div>
         <div className={styles['left-content']}>
-          <p className={styles['title']}>Grow with Melon</p>
+          <p className={styles['title']}>Rasa Lebih Manis</p>
           <p className={styles['description']}>
-            Welcome to Melon Hydroponics, where we&apos;re dedicated to
-            empowering you with the tools and knowledge to cultivate your own
-            thriving hydroponic garden. Our mission is to make sustainable,
-            high-yield gardening accessible to everyone
+            Melon yang ditanam dengan metode hidroponik cenderung memiliki rasa
+            yang lebih manis karena nutrisi yang diberikan kepada tanaman sangat
+            terkontrol dan spesifik
           </p>
         </div>
       </div>

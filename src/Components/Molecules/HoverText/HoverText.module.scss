@@ -1,0 +1,38 @@
+.magnifyWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.magnifyText {
+  line-height: 1.5;
+  position: relative;
+  z-index: 1;
+  user-select: none;
+
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 400;
+  color: #66706b;
+  font-size: 17px;
+}
+
+/* Lingkaran kaca pembesar */
+.magnifier {
+  position: absolute;
+  width: 80px; /* Diameter kaca pembesar (50px radius) */
+  height: 80px;
+  border-radius: 50%;
+  pointer-events: none;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transform: translate(-50%, -50%); /* Menyesuaikan posisi ke tengah kursor */
+}
+
+/* Konten di dalam kaca pembesar */
+.magnifierContent {
+  position: absolute;
+  transform: scale(1.5);
+  transform-origin: top left;
+  line-height: 1.5;
+  white-space: nowrap;
+}

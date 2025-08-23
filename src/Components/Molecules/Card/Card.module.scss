@@ -1,0 +1,11 @@
+.container {
+  width: 700px;
+  height: 600px;
+  box-sizing: border-box;
+  background: salmon;
+
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+}

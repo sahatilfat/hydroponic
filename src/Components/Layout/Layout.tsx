@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Layout.module.scss';
-
 type ILayout = {
   children?: React.ReactNode;
 };

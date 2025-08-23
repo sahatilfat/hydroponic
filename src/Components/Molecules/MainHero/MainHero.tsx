@@ -9,18 +9,17 @@ const MainHero = () => {
       <div className={styles['container']}>
         <div className={styles['left-content']}>
           <div className={styles['content']}>
-            <p className={styles['text']}>Discover the Future of Hydroponics</p>
+            <p className={styles['text']}>Nikmati Manisnya Melon Hidroponik</p>
             <p className={`${styles['text']} ${styles['main']}`}>
-              Elevating Sustainable Gardening{' '}
+              Langsung dari Kebun Kami!
             </p>
             <p className={`${styles['text']} ${styles['description']}`}>
-              At Melon Hydroponics, we&apos;re revolutionizing the way you grow.
-              Our cutting-edge hydroponic systems combine innovative technology
-              and expert knowledge to provide a
+              Nikmati pengalaman berbeda dengan melon hidroponik – lebih segar,
+              lebih sehat, lebih istimewa.
             </p>
-            <div className={styles['button-wrapper']}>
+            {/* <div className={styles['button-wrapper']}>
               <ButtonDefault title="Explore Now" />
-            </div>
+            </div> */}
           </div>
         </div>
         <div className={styles['right-content']}>

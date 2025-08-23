@@ -5,11 +5,6 @@ import ButtonDefault from '@/Components/Atoms/ButtonDefault/ButtonDefault';
 const TransformGardenSection = () => {
   return (
     <div className={styles['container']}>
-      <div className={styles['left-content']}>
-        <div className={styles['content']}>
-          <img src="/assets/image/melon-transform.png" alt="melon" />
-        </div>
-      </div>
       <div className={styles['right-content']}>
         <div className={styles['content']}>
           <p className={styles['title']}>
@@ -25,6 +20,12 @@ const TransformGardenSection = () => {
           <div className={styles['button-wrapper']}>
             <ButtonDefault title="Get Startted" />
           </div>
+        </div>
+      </div>
+      <div className={styles['left-content']}>
+        <div className={styles['content']}>
+          {/* <img src="/assets/image/melon-transform.png" alt="melon" /> */}
+          <img src="/assets/image/green-melon.png" alt="melon" />
         </div>
       </div>
     </div>
